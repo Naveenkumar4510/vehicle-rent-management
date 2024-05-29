@@ -1,0 +1,106 @@
+/* booking.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: black; /* Changed title color to black */
+}
+
+form {
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: silver;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    background-color: orangered;
+    border-radius: 8px;
+}
+
+td {
+    padding: 10px;
+    background-color: #f6f6f6;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 90%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    background-color: #2b80d0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c5a91;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4500; /* Changed button color to orange */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #cc3700; /* Darker orange on hover */
+}
+
+/* booking.css */
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.logout-button:active {
+  background-color: #b71c1c;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c757d; /* Default Bootstrap secondary button color */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62; /* Darker color on hover */
+}
+
+.btn-secondary:active {
+  background-color: #343a40; /* Even darker color on click */
+}

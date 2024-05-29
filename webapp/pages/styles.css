@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    background-color: white; /* Set a white background color */
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7); /* Set the navbar background to semi-transparent white */
+    padding: 1rem; /* Adjust padding */
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: black; /* Change the text color to black */
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: silver; /* Change the hover text color to silver */
+    background-color: transparent; /* Remove the background-color on hover */
+    padding: 0; /* Remove padding on hover */
+}
+
+.container {
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+form {
+    background-color: transparent;
+}
+
+h3 {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #000;
+    font-size: 35px;
+    margin-left: 35px;
+}
+
+p {
+    margin-top: 80px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+/* Hover effect on navbar links */
+.nav-link:hover {
+    background-color: silver;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Highlighted text in the corner */
+.highlighted-text {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: silver;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
