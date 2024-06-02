@@ -25,7 +25,10 @@
         p, .card-text {
             font-size: 18px; /* Adjust font size for paragraphs */
         }
-
+        
+.navbar-nav{
+flex-direction:row;
+}
         /* Add your custom font imports here */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');

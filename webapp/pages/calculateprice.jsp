@@ -7,7 +7,7 @@
     <title>Price Page</title>
     <style>
         body {
-            background-color: #add8e6; /* Light grey background color */
+            background-color: #87CEEB; /* Light grey background color */
         }
 
         h1 {
@@ -86,7 +86,7 @@
         crossorigin="anonymous">
 </head>
 
-<body style="background-color: #add8e6;">
+<body style="background-color: #87CEEB;">
     <%
         String context = request.getContextPath(); 
     %>

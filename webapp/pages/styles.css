@@ -21,6 +21,7 @@ body {
 
 .navbar-nav {
     display: flex;
+    flex-direction:row;
 }
 
 .nav-item {

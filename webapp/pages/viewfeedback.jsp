@@ -11,7 +11,7 @@
     <style>
         /* Style for the logout button with orange color */
         .logout-btn {
-            background-color: #ff4500; /* Orange-Red background color */
+            background-color: #87CEEB; /* Orange-Red background color */
             color: #ffffff;
             font-weight: bold;
             border-radius: 4px;

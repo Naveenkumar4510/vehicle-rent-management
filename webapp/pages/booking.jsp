@@ -16,7 +16,7 @@
         }
     </style>
     </head>
-<body style="background-color: #add8e6;">
+<body style="background-color: #87CEEB;">
 
 <%
     String context = request.getContextPath(); 
