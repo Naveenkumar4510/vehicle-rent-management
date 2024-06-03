@@ -5,7 +5,7 @@ FROM tomcat:latest
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your WAR file to Tomcat's webapps directory
-COPY FCApp.war /usr/local/tomcat/webapps/
+COPY FCApp.war /usr/local/tomcat/webapps/FCApp.war
 
 # Expose Tomcat port
 EXPOSE 8080

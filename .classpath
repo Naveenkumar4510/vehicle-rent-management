@@ -33,5 +33,9 @@
 	<classpathentry kind="lib" path="G:/connector/standard-1.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/junit-4.5.jar"/>
 	<classpathentry kind="lib" path="G:/connector/junit-4.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jakarta.servlet.jsp.jstl-api-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jstl-impl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jstl-api-1.2.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/jstl-api-1.2.jar/jstl-api-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
